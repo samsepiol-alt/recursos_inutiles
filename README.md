@@ -1,2 +1,2 @@
 # recursos_inutiles
-utilitie
+cosas para usar
