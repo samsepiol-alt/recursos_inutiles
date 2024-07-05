@@ -1,0 +1,23 @@
+agregar todo en el directorio actual
+
+git add . o --all
+
+
+confirmar con mensaje descriptivo
+git commit -m "mensaje descriptivo"
+
+agregar los cambios de origen a remoto
+git push <origen> <remoto>
+
+traer cambios de origen a remoto
+git pull <origen> <remoto>
+
+log de los cambios del repositorio
+git log
+
+ver la diferencia entre archivos
+git diff
+
+git restore /ruta/ o /archivo
+
+instalacion de complemento gitgraph

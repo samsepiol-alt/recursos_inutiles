@@ -1,0 +1,63 @@
+ 140  mkdir ejercicio
+  141  cd ejercicio/
+  142  mkdir alumno
+  143  cd alumno/
+  144  mkdirapuntes
+  145  mkdir apuntes
+  146  mkdir documentos
+  147  mkdir ejercicios
+  148  tree
+  149  touch ./apuntes/modulo1.doc
+  150  touch ./apuntes/modulo2.doc
+  151  touch ./apuntes/modulo3.doc
+  152  touch ./apuntes/modulo4.doc
+  153  touch ./apuntes/modulo5.doc
+  154  rm ./apuntes/modulo4.doc
+  155  rm ./apuntes/modulo5.doc
+  156  touch ./ejercicios/modulo1.html
+  157  touch ./ejercicios/modulo2.html
+  158  touch ./ejercicios/modulo3.html
+  159  touch ./ejercicios/modulo4.html
+  160  touch ./ejercicios/modulo5.html
+  161  tree
+  162  mkdir modulo1
+  163  mkdir ./modulo1/ejercicios
+  164  mkdir ./modulo1/documentos
+  165  mkdir ./modulo1/apuntes
+  166  mkdir ./modulo2/apuntes
+  167  mkdir modulo2
+  168  mkdir ./modulo2/apuntes
+  169  mkdir ./modulo2/documentos
+  170  mkdir ./modulo2/ejercicios
+  171  mkdir modulo 3
+  172  mkdir ./modulo3/ejercicios
+  173  rm ./modulo
+  174  rm ./3
+  175  rm -r ./3
+  176  rm -r ./modulo
+  177  mkdir modulo3
+  178  mkdir ./modulo3/apuntes
+  179  mkdir ./modulo3/ejercicios
+  180  mkdir ./modulo3/documentos
+  181  mkdir modulo4
+  182  mkdir modulo5
+  183  mkdir ./modulo4/documentos
+  184  mkdir ./modulo4/ejercicios
+  185  mkdir ./modulo4/apuntes
+  186  tree
+  187* mkdir ./modulo5/apuntes
+  188  mkdir ./modulo5/ejercicios
+  189  mkdir ./modulo5/documentos
+  190  mv ./apuntes/modulo1.doc ./modulo1/apuntes/
+  191  tree
+  192  mv ./apuntes/modulo2.doc ./modulo2/apuntes/
+  193  mv ./apuntes/modulo3.doc ./modulo3/apuntes/
+  194  mv ./ejercicios/modulo1.html ./modulo1/ejercicios/
+  195  mv ./ejercicios/modulo2.html ./modulo2/ejercicios/
+  196  mv ./ejercicios/modulo3.html ./modulo3/ejercicios/
+  197  mv ./ejercicios/modulo4.html ./modulo4/ejercicios/
+  198  mv ./ejercicios/modulo5.html ./modulo5/ejercicios/
+  199  tree
+  200  rm -r ./apuntes ./documentos/ ./ejercicios/
+  201  tree
+  202  history
